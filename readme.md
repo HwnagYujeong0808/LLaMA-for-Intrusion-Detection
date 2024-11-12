@@ -1,7 +1,7 @@
 # TinyLLaMA for Cyber GNN dataset
 ## Baseline
 
-![Baseline Result](baseline.png)
+<img src="baseline.png" alt="Baseline Result" width="600">
 
 ## Darknet Dataset Results
 
