@@ -1,4 +1,4 @@
-# TinyLLaMA for Cyber GNN dataset
+# TinyLLaMA for Intrusion Detection
 ## Baseline
 
 <img src="fig/baseline.png" alt="Baseline Result" width="500">
