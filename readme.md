@@ -31,8 +31,25 @@
 
 ### CSE-CIC Dataset Results
 
-| Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
-|----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
-| TinaLLaMA - continuous learning | Phase 1 |            |      |               |          |     |                                  |                                     |     |
-| TinaLLaMA - continuous learning | Phase 2 |          |    |             |          |      |  |  |   |
+## Darknet Dataset Results
 
+| Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss | Test F1 Score | Model Path                                     |
+|----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|-----------|---------------|------------------------------------------------|
+| TinyLlama - continuous learning | Phase 1 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.6059    | 0.7906        | `model/20241113-181010_llm_w_edgefeat.pth`     |
+|                                              | Phase 2 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.3917    | 0.7936        | `model/20241113-194017_llm_w_edgefeat.pth`     |
+
+
+### CSE-CIC Test Sample Results
+
+#### Test Sample 1
+- **Test set results:**  loss= 0.3917, accuracy= 0.8571, f1_score(weighted)= 0.7936
+
+<img src="fig/darknet_classification_report_3.png" alt="Test Sample 1 Classification Report" width="400">
+
+#### Test Sample 2
+- **Test set results:** loss= 0.4598, accuracy= 0.8452, f1_score(weighted)= 0.7868
+
+
+<img src="fig/darknet_classification_report_4.png" alt="Test Sample 2 Classification Report" width="400">
+
+---
