@@ -27,6 +27,8 @@
 
 <img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
 
+---
+
 ### CSE-CIC Dataset Results
 
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
