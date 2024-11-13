@@ -27,7 +27,7 @@
 
 <img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
 
---
+---
 
 ### CSE-CIC Dataset Results
 
