@@ -49,4 +49,4 @@
 
 ## Baseline
 
-<img src="fig/baseline.png" alt="Baseline Result" width="500">
+<img src="fig/baseline.png" alt="Baseline Result" width="400">
