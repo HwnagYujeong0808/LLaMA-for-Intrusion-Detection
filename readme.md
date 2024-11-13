@@ -36,9 +36,6 @@
 ### CSE-CIC Test Result - Sample 1
 - **Test set results:**  loss= 0.3917, accuracy= 0.8571, f1_score(weighted)= 0.7936
 
-## Baseline
-
-<img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 <img src="fig/darknet_classification_report_3.png" alt="Test Sample 1 Classification Report" width="400">
 
@@ -49,3 +46,7 @@
 <img src="fig/darknet_classification_report_4.png" alt="Test Sample 2 Classification Report" width="400">
 
 ---
+
+## Baseline
+
+<img src="fig/baseline.png" alt="Baseline Result" width="500">
