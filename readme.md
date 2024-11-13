@@ -1,7 +1,7 @@
 # TinyLLaMA for Cyber GNN dataset
 ## Baseline
 
-<img src="baseline.png" alt="Baseline Result" width="500">
+<img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 ## Darknet Dataset Results
 
@@ -15,10 +15,10 @@
 #### Test Sample 1
 - **Test set results:** loss= 0.1116, accuracy= 0.9907, f1_score(weighted)= 0.9907
 
-<img src="darknet_classification_report_1.png" alt="Test Sample 1 Classification Report" width="400">
+<img src="fig/darknet_classification_report_1.png" alt="Test Sample 1 Classification Report" width="400">
 
 #### Test Sample 2
 - **Test set results:** loss= 0.2312, accuracy= 0.9815, f1_score(weighted)= 0.9814
 
 
-<img src="darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
+<img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
