@@ -20,7 +20,7 @@
 - **Test set results:** loss= 0.2312, accuracy= 0.9815, f1_score(weighted)= 0.9814
 
 
-<img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="450">
+<img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
 
 ---
 
@@ -49,4 +49,4 @@
 
 ## Baseline
 
-<img src="fig/baseline.png" alt="Baseline Result" width="400">
+<img src="fig/baseline.png" alt="Baseline Result" width="450">
