@@ -4,7 +4,7 @@
 <img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 ## Darknet Dataset Results
-+ **TinaLLaMA** is trained by incorporating both edge features and textual information to enhance its predictive capabilities.
++ **TinaLLaMA** is trained by incorporating both _1) edge features_ and _2) textual information_ to enhance its predictive capabilities.
 + Due to *memory constraints*, I employed continuous learning, incrementally increasing the dataset size during training to optimize resource utilization.
   
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
