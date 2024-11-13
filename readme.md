@@ -1,10 +1,10 @@
 # TinyLLaMA for Intrusion Detection
 
-## Results
+## Model Evaluation
 + **TinaLLaMA** is trained by incorporating both _1) edge features_ and _2) textual information_ to enhance its predictive capabilities.
 + Due to *memory constraints*, I employed _continuous learning_, incrementally increasing the dataset size during training to optimize resource utilization.
 
-### Darknet Dataset Results
+### Darknet Dataset
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
 | TinaLLaMA (w/ edgefeatures) | Phase 1 | 874 / 98 / 108            | 10     | 87              | 10         | 1.00E-05      | 0.5793                                   | 0.9191                                    |     |
@@ -24,7 +24,7 @@
 
 ---
 
-### CSE-CIC Dataset Results
+### CSE-CIC Dataset
 
 
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss | Test F1 Score | Model Path                                     |
