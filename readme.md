@@ -4,18 +4,20 @@
 <img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 ## Darknet Dataset Results
-
++ **TinaLLaMA** is trained by incorporating both edge features and textual information to enhance its predictive capabilities.
++ Due to *memory constraints*, I employed continuous learning, incrementally increasing the dataset size during training to optimize resource utilization.
+  
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
-| TinyLlama (w/ edge features) - continuous learning | Phase 1 | 874 / 98 / 108            | 10     | 87              | 10         | 1.00E-05      | 0.5793                                   | 0.9191                                    |     |
-| TinyLlama (w/ edge features) - continuous learning | Phase 2 | 864 / 108 / 108            | 10     | 87              | 10         | 1.00E-05      | **0.1116** <br>another unused test set: 0.2312 | **0.9907**<br>another unused test set: 0.9814 | `model/20241109-164753_llm_w_edgefeat.pth`  |
+| TinaLLaMA - continuous learning | Phase 1 | 874 / 98 / 108            | 10     | 87              | 10         | 1.00E-05      | 0.5793                                   | 0.9191                                    |     |
+| TinaLLaMA - continuous learning | Phase 2 | 864 / 108 / 108            | 10     | 87              | 10         | 1.00E-05      | **0.1116** <br>another unused test set: 0.2312 | **0.9907**<br>another unused test set: 0.9814 | `model/20241109-164753_llm_w_edgefeat.pth`  |
 
 ## CSE-CIC Dataset Results
 
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
-| TinyLlama (w/ edge features) - continuous learning | Phase 1 |            |      |               |          |     |                                  |                                     |     |
-| TinyLlama (w/ edge features) - continuous learning | Phase 2 |          |    |             |          |      |  |  |   |
+| TinaLLaMA - continuous learning | Phase 1 |            |      |               |          |     |                                  |                                     |     |
+| TinaLLaMA - continuous learning | Phase 2 |          |    |             |          |      |  |  |   |
 
 ### Test Sample Results
 
