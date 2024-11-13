@@ -45,7 +45,7 @@
 
 <img src="fig/darknet_classification_report_4.png" alt="Test Sample 2 Classification Report" width="400">
 
----
+
 
 ## Baseline
 
