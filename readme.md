@@ -36,7 +36,7 @@
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss | Test F1 Score | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|-----------|---------------|------------------------------------------------|
 | TinyLlama - continuous learning | Phase 1 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.6059    | 0.7906        | `model/20241113-181010_llm_w_edgefeat.pth`     |
-|                                              | Phase 2 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.3917    | 0.7936        | `model/20241113-194017_llm_w_edgefeat.pth`     |
+| TinyLlama - continuous learning | Phase 2 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.3917    | 0.7936        | `model/20241113-194017_llm_w_edgefeat.pth`     |
 
 
 ### CSE-CIC Test Sample Results
