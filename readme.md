@@ -1,4 +1,4 @@
-# TinyLLaMA for Intrusion Detection
+# LLaMA for Intrusion Detection
 
 ## Model Evaluation
 + **TinaLLaMA** is trained by incorporating both _1) edge features_ and _2) textual information_ to enhance its predictive capabilities.
