@@ -3,10 +3,11 @@
 
 <img src="fig/baseline.png" alt="Baseline Result" width="500">
 
-## Darknet Dataset Results
+## Results
 + **TinaLLaMA** is trained by incorporating both _1) edge features_ and _2) textual information_ to enhance its predictive capabilities.
 + Due to *memory constraints*, I employed continuous learning, incrementally increasing the dataset size during training to optimize resource utilization.
-  
+
+### Darknet Dataset Results
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
 | TinaLLaMA - continuous learning | Phase 1 | 874 / 98 / 108            | 10     | 87              | 10         | 1.00E-05      | 0.5793                                   | 0.9191                                    |     |
@@ -26,7 +27,7 @@
 
 <img src="fig/darknet_classification_report_2.png" alt="Test Sample 2 Classification Report" width="400">
 
-## CSE-CIC Dataset Results
+### CSE-CIC Dataset Results
 
 | Model Name                                   | Phase   | Training/Val/Test Set Size | Epochs | Number of Batch | Batch Size | Learning Rate | Test Loss                                | Test F1 Score                            | Model Path                                     |
 |----------------------------------------------|---------|----------------------------|--------|-----------------|------------|---------------|------------------------------------------|-------------------------------------------|------------------------------------------------|
