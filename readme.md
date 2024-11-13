@@ -1,7 +1,4 @@
 # TinyLLaMA for Intrusion Detection
-## Baseline
-
-<img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 ## Results
 + **TinaLLaMA** is trained by incorporating both _1) edge features_ and _2) textual information_ to enhance its predictive capabilities.
@@ -38,6 +35,10 @@
 
 ### CSE-CIC Test Result - Sample 1
 - **Test set results:**  loss= 0.3917, accuracy= 0.8571, f1_score(weighted)= 0.7936
+
+## Baseline
+
+<img src="fig/baseline.png" alt="Baseline Result" width="500">
 
 <img src="fig/darknet_classification_report_3.png" alt="Test Sample 1 Classification Report" width="400">
 
