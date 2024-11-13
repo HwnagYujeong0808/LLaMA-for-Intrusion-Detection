@@ -14,14 +14,12 @@
 | TinaLLaMA (w/ edgefeatures) | Phase 2 | 864 / 108 / 108            | 10     | 87              | 10         | 1.00E-05      | **0.1116** | **0.9907** | `model/20241109-164753_llm_w_edgefeat.pth`  |
 
 
-### Darknet Test Sample Results
-
-#### Test Sample 1
+#### Darknet Test Sample 1
 - **Test set results:** loss= 0.1116, accuracy= 0.9907, f1_score(weighted)= 0.9907
 
 <img src="fig/darknet_classification_report_1.png" alt="Test Sample 1 Classification Report" width="400">
 
-#### Test Sample 2
+#### Darknet Test Sample 2
 - **Test set results:** loss= 0.2312, accuracy= 0.9815, f1_score(weighted)= 0.9814
 
 
@@ -38,14 +36,12 @@
 | TinyLlama (w/ edgefeatures) | Phase 2 | 1360 / 152 / 168          | 10     | 136             | 10         | 1.00E-05      | 0.3917    | 0.7936        | `model/20241113-194017_llm_w_edgefeat.pth`     |
 
 
-### CSE-CIC Test Sample Results
-
-#### Test Sample 1
+#### CSE-CIC Test Sample 1
 - **Test set results:**  loss= 0.3917, accuracy= 0.8571, f1_score(weighted)= 0.7936
 
 <img src="fig/darknet_classification_report_3.png" alt="Test Sample 1 Classification Report" width="400">
 
-#### Test Sample 2
+#### CSE-CIC Test Sample 2
 - **Test set results:** loss= 0.4598, accuracy= 0.8452, f1_score(weighted)= 0.7868
 
 
